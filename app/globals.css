@@ -1,4 +1,9 @@
 @import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @theme {
     --color-p1: #2EF2FF;
     --color-p2: #3C52D9;
@@ -268,4 +273,59 @@
         background: linear-gradient(to right, transparent, #2ef2ff, transparent);
     }
     /*END of Custom Button*/
+    /* START of Feature */
+    .feature-after {
+        @apply after:absolute after:right-0 after:top-0 after:h-full after:w-1/2 after:mix-blend-soft-light after:content-[''] max-md:after:hidden;
+    }
+
+    .feature-after::after {
+        background: linear-gradient(rgba(196, 203, 245, 0.5), transparent);
+    }
+
+    /* END of Feature */
+    /* START of Pricing */
+    .pricing-head_before {
+        @apply before:absolute before:-bottom-44 before:left-1/5 before:h-96 before:w-13/20 before:blur-[200px] before:content-[''];
+    }
+
+    .pricing-head_before::before {
+        background-color: rgba(25, 89, 173, 0.5); /* bg-s4/50 */
+    }
+
+    .pricing-head_btn {
+        @apply  relative z-2 h-16 flex-1 uppercase text-p5  transition-colors  duration-500 hover:text-p4;
+    }
+
+    .pricing-head_btn_before {
+        @apply before:absolute rounded-2xl before:-top-16 before:left-9 before:right-9 before:blur-xl before:content-[""] ;
+    }
+
+    .pricing-head_btn_before::before {
+        background-color: #1959AD; /* bg-s4 */
+    }
+
+    .pricing-bg {
+        @apply pointer-events-none absolute -bottom-16 left-[calc(50%-480px)] z-2 mx-auto w-960;
+    }
+
+    .pricing-plan_first {
+        @apply first:rounded-bl-3xl first:rounded-tl-3xl lg:first:border-r-0;
+    }
+
+    .pricing-plan_last {
+        @apply last:rounded-br-3xl last:rounded-tr-3xl lg:last:border-l-0;
+    }
+
+    .pricing-plan_odd {
+        @apply odd:border-s3 odd:bg-s1 lg:odd:mt-12;
+    }
+
+    .pricing-plan_even {
+        @apply even:rounded-bl-3xl even:rounded-br-3xl even:rounded-tl-3xl even:rounded-tr-3xl even:border-s4;
+    }
+
+    .pricing-plan_even:nth-child(even) {
+        background: linear-gradient(#1b275a, #0e1434); /* g7 */
+    }
+    /* END of Pricing */
 }

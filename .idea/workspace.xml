@@ -4,69 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="722c2752-011e-4153-be3d-41a9fc66f21b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Marker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg-outlines-fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg-outlines.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/detail-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/docs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/faq-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/feature-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/feature-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/hexagon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/lines.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logos/afterpay.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logos/amplitude.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logos/drips.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logos/maze.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logos/sonos.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/magic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/magictouch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/plan-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/plan-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/plan-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/screen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/socials/discord.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/socials/instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/socials/threads.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/socials/x.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonials/alicia-barker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonials/becky-snider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonials/jessica-saunders.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonials/jim-bradley.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonials/mark-erixon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/testimonials/melanie-hurst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/triangle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/xora.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/zap.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sections/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sections/Hero.tsx" afterDir="false" />
+    <list default="true" id="722c2752-011e-4153-be3d-41a9fc66f21b" name="Changes" comment="add hero section">
+      <change afterPath="$PROJECT_DIR$/constants/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/Features.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/Pricing.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DennyAge&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DennyAge/saas-landing-page.git&quot;,
+    &quot;accountId&quot;: &quot;757ea5e7-ccfc-4b9b-9ee3-128d2cb2b5fa&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -129,11 +89,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742292207791</updated>
-      <workItem from="1742292208848" duration="11512000" />
+      <workItem from="1742292208848" duration="14037000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1742303910195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742303910195</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add marker component">
+      <option name="closed" value="true" />
+      <created>1742303925722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742303925722</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add button component">
+      <option name="closed" value="true" />
+      <created>1742303933721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742303933721</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add header section">
+      <option name="closed" value="true" />
+      <created>1742303943247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742303943247</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add hero section">
+      <option name="closed" value="true" />
+      <created>1742303948631</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742303948631</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="add marker component" />
+    <MESSAGE value="add button component" />
+    <MESSAGE value="add header section" />
+    <MESSAGE value="add hero section" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hero section" />
   </component>
 </project>
