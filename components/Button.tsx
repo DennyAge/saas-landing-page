@@ -37,7 +37,7 @@ const Button = ({
           />
         )}
 
-        <span className="relative z-2 font-poppins base-bold text-p1 uppercase">
+        <span className="relative z-2 font-poppins  text-p1 uppercase">
           {children}
         </span>
       </span>
